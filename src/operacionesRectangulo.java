@@ -10,10 +10,10 @@ public class operacionesRectangulo
 		Rectangulo operaciones = new Rectangulo();
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("\nIngresa la altura: ");
+		System.out.print("\nIngresa la altura del rectangulo: ");
 		alt = sc.nextDouble();
 		
-		System.out.println("\nIngresa la base: ");
+		System.out.print("\nIngresa la base del rectangulo: ");
 		bs = sc.nextDouble();
 		
 		operaciones.setArea(alt, bs);
@@ -22,8 +22,8 @@ public class operacionesRectangulo
 		resultadoArea = operaciones.getArea();
 		resultadoPerimetro = operaciones.getPerimetro();
 
-		System.out.println("\nEl resultado del AREA es: " + resultadoArea + "cm");
-		System.out.println("\nEl resultado del PERIMETRO es: " + resultadoPerimetro + "cm");
+		System.out.println("\nEl AREA del rectangulo es: " + resultadoArea + "cm");
+		System.out.println("\nEl PERIMETRO del rectangulo es: " + resultadoPerimetro + "cm");
 	
 		//System.out.println("\n\nEGUN ONA IZAN!!\n");
 	}
